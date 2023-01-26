@@ -19,7 +19,19 @@ namespace HolaMundo
 
         private void BotonHelloWorld_Click(object sender, EventArgs e)
         {
-            LabelHello.Text = "Hello World";
+            LabelHello.Text = "Hola, Mundo!";
+            LabelHello.BackColor = Color.BlueViolet;
+            LabelHello.TextAlign = ContentAlignment.MiddleCenter;
+            LabelHello.BorderStyle = BorderStyle.FixedSingle; 
+            
+            
+        }
+
+        private void LabelHello_Click(object sender, EventArgs e)
+        {
+
+
+
         }
     }
 }

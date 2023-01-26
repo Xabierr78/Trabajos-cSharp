@@ -34,22 +34,31 @@
             // 
             // BotonHelloWorld
             // 
-            this.BotonHelloWorld.Location = new System.Drawing.Point(299, 88);
+            this.BotonHelloWorld.BackColor = System.Drawing.Color.Black;
+            this.BotonHelloWorld.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.BotonHelloWorld.FlatAppearance.BorderSize = 2;
+            this.BotonHelloWorld.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.BotonHelloWorld.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Lime;
+            this.BotonHelloWorld.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BotonHelloWorld.Font = new System.Drawing.Font("Consolas", 15F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BotonHelloWorld.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.BotonHelloWorld.Location = new System.Drawing.Point(296, 274);
             this.BotonHelloWorld.Name = "BotonHelloWorld";
-            this.BotonHelloWorld.Size = new System.Drawing.Size(75, 23);
+            this.BotonHelloWorld.Size = new System.Drawing.Size(197, 59);
             this.BotonHelloWorld.TabIndex = 0;
             this.BotonHelloWorld.Text = "Click Me";
-            this.BotonHelloWorld.UseVisualStyleBackColor = true;
+            this.BotonHelloWorld.UseVisualStyleBackColor = false;
             this.BotonHelloWorld.Click += new System.EventHandler(this.BotonHelloWorld_Click);
             // 
             // LabelHello
             // 
-            this.LabelHello.AutoSize = true;
-            this.LabelHello.Location = new System.Drawing.Point(330, 261);
+            this.LabelHello.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.LabelHello.Font = new System.Drawing.Font("Roboto", 30F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelHello.Location = new System.Drawing.Point(166, 35);
             this.LabelHello.Name = "LabelHello";
-            this.LabelHello.Size = new System.Drawing.Size(44, 16);
+            this.LabelHello.Size = new System.Drawing.Size(469, 154);
             this.LabelHello.TabIndex = 1;
-            this.LabelHello.Text = "label1";
+            this.LabelHello.Click += new System.EventHandler(this.LabelHello_Click);
             // 
             // Form1
             // 
@@ -61,7 +70,6 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
